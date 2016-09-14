@@ -1,4 +1,9 @@
 # Site navigation links and tiles on main page
+- title: Ev
+  url: /
+  img: maxresdefault.jpg
+  subnav:
+
 - title: Recipes by Category
   url: /recipes/
   img: recipe.jpg
@@ -25,6 +30,7 @@
     - title: Healthy
       url: /recipes/healthy/
 
+
 - title: Adventures + Blog
   url: /blog/
   img: adventure.jpg
@@ -43,4 +49,9 @@
 - title: About
   url: /about/
   img: About Pic.JPG
+  subnav:
+
+- title: About-Hakkında  #deneme  
+  url: /about-Hakkinda/
+  img: maxresdefault.jpg
   subnav:

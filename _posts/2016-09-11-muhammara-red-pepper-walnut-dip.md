@@ -3,7 +3,7 @@ layout: post
 categories: [videos, recipes]
 tags: [videos, nomeats, aleppo, dip, muhammara, red pepper, walnuts]
 excerpt: 
-title: "Muhammara - Red Pepper Walnut Dip"
+title: "Muhammara - Red Pepper-Kırmızı Biber Walnut Dip"
 feature_video: https://www.youtube.com/embed/7Ik6H8626fg?rel=0
 image:
   feature: 225-1.jpg
