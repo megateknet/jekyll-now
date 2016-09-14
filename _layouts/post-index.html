@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="page">
+<body class="post-index">
 
 {% include _browser-upgrade.html %}
 
@@ -27,13 +27,25 @@
 {% endif %}
 
 <div id="main" role="main">
-  <article class="page">
+  <div id="index">
     <h1>{{ page.title }}</h1>
-    <div class="article-wrap">
-      {{ content }}
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
+    {% for post in site.posts %}  
+      {% if post.categories contains page.category %}
+      <article>
+        {% if post.link %}
+          <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
+        {% else %}
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span class='post-image'  style="background: url(/images/{{ post.image.feature }}); background-size: cover">&nbsp;</span>
+          <h2>{{ post.title | truncate: 30}}<hr><span>{{post.date | date: '%m.%d.%Y'}}</span></h2>
+          <h4>READ MORE</h4>
+          </a>
+          <!--<p>{{ post.excerpt | strip_html | truncate: 160 }}</p> -->
+        {% endif %}
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div><!-- /#index -->
+</div><!-- /#main -->
 
 <div class="footer-wrap">
   <footer>
@@ -41,7 +53,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}          
-
+{% include _scripts.html %}
+  
 </body>
 </html>
