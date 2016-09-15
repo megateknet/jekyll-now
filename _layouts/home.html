@@ -1,5 +1,5 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!--html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"-->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
@@ -14,13 +14,13 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>{{ post.url }}</title>
 <meta name="author" content="" />
-<link href="{{ page.url }}/feed.xml" rel="alternate" title="" type="application/atom+xml" />
+<link href="{{ page.url }}/feed.xml" rel="alternate" title="{{ page.url }}" type="application/atom+xml" />
 <meta name="author" content="" />
-<link href="{{ post.url }}/feed.xml" rel="alternate" title="" type="application/atom+xml" />
+<link href="{{ post.url }}/feed.xml" rel="alternate" title="{{ post.url }}" type="application/atom+xml" />
 <meta name="author" content="" />
-<link href="{{ site.url }}/feed.xml" rel="alternate" title="" type="application/atom+xml" />
-<meta name="readability-verification" content="e3fb0316180ffe5e0e35411b93161b5083c1b0e7"/>
-<!--sonradan eklendi-->
+<link href="{{ site.url }}/feed.xml" rel="alternate" title="{{ site.url }}" type="application/atom+xml" />
+<!--meta name="readability-verification" content="e3fb0316180ffe5e0e35411b93161b5083c1b0e7"/>
+sonradan eklendi-->
 
 {% include _head.html %}
 <link rel="stylesheet" href="{{ site.url }}/assets/css/ideal-image-slider.css">
