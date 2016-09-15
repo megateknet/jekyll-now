@@ -11,8 +11,6 @@ image:
 ### İLETİŞİM BİLGİLERİ
 
 
-## MegaTeek Bilgisayar
-
 4119/1 Sokak No:31 Yeşilova 
 Bornova/İzmir
 
