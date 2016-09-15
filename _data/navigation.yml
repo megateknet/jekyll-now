@@ -1,57 +1,44 @@
 # Site navigation links and tiles on main page
-- title: Ev
+- title: EV
   url: /
-  img: maxresdefault.jpg
+  img: 64a10217142239.562b6507a043d.png
+  subnav:
+  
+- title: ÜRÜNLER
+  url: /guvenlik/
+  img: 51BjwysPqwL.jpg
   subnav:
 
-- title: Recipes by Category
-  url: /recipes/
-  img: recipe.jpg
-  subnav:
+    - title: GÜVENLİK KAMERASI
+      url: /guvenlik/kamera/
 
-    - title: Meats
-      url: /recipes/meats/
+    - title: DVR KAYIT CİHAZI
+      url: /guvenlik/kayit/
 
-    - title: Meatless
-      url: /recipes/nomeats/
+    - title: DEDEKTÖR-SENSÖR
+      url: /guvenlik/dedektor/
 
-    - title: Rice and Noodles
-      url: /recipes/riceandnoodles/
-
-    - title: Soups
-      url: /recipes/soups/
-
-    - title: Sweets
-      url: /recipes/sweets/
-
-    - title: Sauces
-      url: /recipes/sauces/
-
-    - title: Healthy
-      url: /recipes/healthy/
+    - title: ALARM SİSTEMİ
+      url: /guvenlik/alarm/
 
 
-- title: Adventures + Blog
-  url: /blog/
-  img: adventure.jpg
-  subnav:
-
-- title: Video
+- title: VİDEO
   url: /videos/
-  img: video.jpg
+  img: film-real-and-clapboard-abstract.jpg
   subnav:
 
-- title: Tips
+- title: SATIŞ
   url: /tips/
-  img: tips.jpg
+  img: JavaScript_UI_widgets_library_for_building_desktop_and_mobile_web_apps.png
   subnav:
 
-- title: About
+- title: İLETİŞİM
   url: /about/
-  img: About Pic.JPG
+  img: i-phone-1274886_960_720.png
   subnav:
 
-- title: About-Hakkında  #deneme  
-  url: /about-Hakkinda/
-  img: maxresdefault.jpg
+- title: HAKKINDA
+  url: /hakkinda/
+  img: aircraft-1314333_960_720.png
   subnav:
+

@@ -1,9 +1,9 @@
 # Site wide configuration
 
-#title:            ÖZGÜRLÜK ŞİMDİ BAŞLADI <iptal edildi
-locale:           tr  #en_US yerine tr eklendi
+title:            #başlık
+locale:           tr
 url:              
-encoding:         utf-8 #utf-8 eklendi
+encoding:         utf-8
 
 # Jekyll configuration
 
@@ -22,11 +22,10 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
-
+        
 # Site owner
 owner:
-  name: Christina Ng-vedat
+  name:
   avatar: bio-photo.jpg
   bio: "Describe your self."
   email: 
