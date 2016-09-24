@@ -3,6 +3,8 @@ layout: post
 categories: [videos, guvenlik, satis, kayit]
 tags: [videos, guvenlik, kayit, satis]
 excerpt: 
+lang: tr
+encoding: utf-8
 title: "DVR Kayıt Cihazları"
 feature_video: https://www.youtube.com/embed/SlWMsYdToiI?rel=0
 image:

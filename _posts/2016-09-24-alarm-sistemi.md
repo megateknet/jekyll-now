@@ -4,6 +4,8 @@ categories: [videos, guvenlik, alarm, satis]
 tags: [guvenlik, alarm, satis]
 excerpt: 
 title: "Alarm Sistemi"
+lang: tr
+encoding: utf-8
 image:
   feature: Honeywell_home_alarm.JPG
 ---
