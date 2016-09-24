@@ -1,9 +1,11 @@
 <!doctype html>
+<html lang="tr">
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
+<meta charset="UTF-8">
 {% include _head.html %}
 </head>
 
@@ -30,7 +32,7 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for post in site.posts %}  
-      {% if post.categories contains 'recipes' or post.categories contains 'videos' %}
+      {% if post.categories contains 'guvenlik' or post.categories contains 'videos' %}
         {% if post.tags contains page.category %}
         <article>
           {% if post.link %}
@@ -38,7 +40,7 @@
           {% else %}
             <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span class='post-image'  style="background: url(/images/{{ post.image.feature }}); background-size: cover">&nbsp;</span>
             <h2>{{ post.title | truncate: 30}}<hr><span>{{post.date | date: '%m.%d.%Y'}}</span></h2>
-            <h4>READ MORE</h4>
+            <h4>OKU...</h4>
             </a>
             <!--<p>{{ post.excerpt | strip_html | truncate: 160 }}</p> -->
           {% endif %}

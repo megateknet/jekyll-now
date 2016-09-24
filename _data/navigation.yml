@@ -15,9 +15,6 @@
     - title: DVR KAYIT CİHAZI
       url: /guvenlik/kayit/
 
-    - title: DEDEKTÖR-SENSÖR
-      url: /guvenlik/dedektor/
-
     - title: ALARM SİSTEMİ
       url: /guvenlik/alarm/
 
@@ -28,16 +25,16 @@
   subnav:
 
 - title: SATIŞ
-  url: /tips/
+  url: /satis/
   img: JavaScript_UI_widgets_library_for_building_desktop_and_mobile_web_apps.png
   subnav:
 
 - title: İLETİŞİM
-  url: /about/
+  url: /iletisim/
   img: i-phone-1274886_960_720.png
   subnav:
 
-- title: HAKKIMIZDA
+- title: HAKKINDA
   url: /hakkinda/
   img: aircraft-1314333_960_720.png
   subnav:

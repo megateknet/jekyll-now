@@ -1,16 +1,22 @@
 - title: "Kamera - Güvenlik Sistemleri Kurulumu"
-  url: /videos/guvenlik/kamera-cihazlari/
+  url: /guvenlik/kamera-cihazlari/
   image:
     feature: What-Makes-a-Good-Security-Camera-Picture.jpg
 
 
 - title: "DVR Kayıt Cihazı"
-  url: /videos/guvenlik/kayit-cihazlari/
+  url: /guvenlik/kayit-cihazlari/
   image:
     feature: PACK4500.jpg
 
 
-  
+- title: "Güvenlik Alarm Sistemi"
+  url: /guvenlik/alarm-sistemi/
+  image:
+    feature: Honeywell_home_alarm.JPG
 
+
+
+  
 
 

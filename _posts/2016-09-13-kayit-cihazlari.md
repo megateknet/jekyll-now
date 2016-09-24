@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [videos, guvenlik]
+categories: [guvenlik, kayit, satis]
 tags: [videos, kayit, satıs]
 excerpt: 
 title: "DVR Kayıt Cihazları"
