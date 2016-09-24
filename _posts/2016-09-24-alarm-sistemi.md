@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [guvenlik, alarm, satis]
-tags: [güvenlik, alarm, satis]
+categories: [videos, guvenlik, alarm, satis]
+tags: [guvenlik, alarm, satis]
 excerpt: 
 title: "Alarm Sistemi"
 image:

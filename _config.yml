@@ -1,9 +1,10 @@
 # Site wide configuration
 
 title:            MegaTeek BİLGİSAYAR
-locale:           tr
 url:              
-encoding:         utf-8
+encoding: UTF-8
+languages: ['en', 'tr']
+language_default: 'tr'
 
 # Jekyll configuration
 

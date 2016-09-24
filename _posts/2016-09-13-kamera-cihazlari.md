@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [videos, guvenlik, kamera, satis]
-tags: [videos, kamera, satıs]
+categories: [videos, guvenlik, satis]
+tags: [videos, kamera, satis]
 excerpt: 
 title: "Kamera - Güvenlik Sistemi"
 feature_video: https://www.youtube.com/embed/Xmp8xpu7nuM?rel=0
