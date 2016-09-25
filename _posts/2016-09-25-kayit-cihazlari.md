@@ -1,11 +1,11 @@
 ---
 layout: post
-categories: [videos, guvenlik, satis, kayit]
-tags: [videos, guvenlik, kayit, satis]
+categories: [videos, kayit]
+tags: [videos]
 excerpt: 
 lang: tr
 encoding: utf-8
-title: "DVR Kayıt Cihazları"
+title: "DVR Kayıt Cihazı Kurulumu"
 feature_video: https://www.youtube.com/embed/SlWMsYdToiI?rel=0
 image:
   feature: PACK4500.jpg
