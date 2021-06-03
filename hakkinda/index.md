@@ -10,4 +10,4 @@ image:
   feature: landscape.jpg
 ---
 
-Kamera montaj ve Bilgisayar bakım onarım işleri yapılmaktadır.
+

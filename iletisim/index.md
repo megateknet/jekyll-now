@@ -13,11 +13,4 @@ image:
 ### İLETİŞİM BİLGİLERİ
 
 
-4119/1 Sokak No:31 Yeşilova 
-Bornova/İzmir
-
-TEL:
-
-E-POSTA:
-
 {% include jekyll_mapping.html %}
